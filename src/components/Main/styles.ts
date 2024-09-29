@@ -2,18 +2,17 @@
 
 import styled from 'styled-components'
 
-export const Wrapper = styled.main `
-    background-color: #06092b;
-    color: #fff;
-    
-    width: 100%;
-    height: 100%;
-    padding: 3rem;
-    text-align: center;
+export const Wrapper = styled.main`
+  background-color: #06092b;
+  color: #fff;
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 3rem;
+  text-align: center;
 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 `
