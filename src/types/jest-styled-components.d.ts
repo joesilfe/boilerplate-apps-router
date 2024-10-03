@@ -4,7 +4,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 /* eslint-disable @typescript-eslint/ban-types */
 import { Plugin, NewPlugin } from 'pretty-format'
-import { Interface } from 'readline'
 
 declare global {
   namespace jest {
