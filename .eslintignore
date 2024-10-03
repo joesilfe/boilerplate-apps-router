@@ -1,3 +1,6 @@
 !.storybook
 !.jest
 generators
+plopfile.js
+node_modules/
+jest-styled-components.d.ts
