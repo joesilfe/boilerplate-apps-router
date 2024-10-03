@@ -1,8 +1,8 @@
 import * as S from './styles'
 
 interface Main {
-  title: string;
-  description: string;
+  title: string
+  description: string
 }
 
 const Main = ({
@@ -20,7 +20,6 @@ const Main = ({
       src="/img/hero-illustration.svg"
       alt="Um desenvolvedor de frente para uma tela com código."
     />
-
   </S.Wrapper>
 )
 
