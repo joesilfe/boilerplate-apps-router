@@ -15,7 +15,10 @@ const config: Config = {
   collectCoverageFrom: [
       'src/**/*.ts(x)?', 
       '!src/app/**', // shoud be test in e2e
-      '!src/lib/registry.tsx'
+      '!src/lib/registry.tsx',
+      '!src/**/stories.tsx',
+      '!src/types/**',
+      '!src/styles/**'
     ],
   setupFilesAfterEnv: ['<rootDir>/.jest/setup.ts'],
   modulePaths: ['<rootDir>/src/'],
@@ -26,6 +29,10 @@ const config: Config = {
   },
   // Add more setup options before each test is run
   // setupFilesAfterEnv: ['<rootDir>/jest.setup.ts'],
+  moduleNameMapper: {
+    '^styled-components':
+    'styled-components/dist/styled-components.browser.cjs.js'
+  }
 }
 
 // createJestConfig is exported this way to ensure that next/jest can load the Next.js config which is async
